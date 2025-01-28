@@ -1,0 +1,236 @@
+body{
+    font-family: 'Lato',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(121, 96, 96);
+    color: rgb(13, 13, 13);
+    padding: 40px 20px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(57, 45, 45);
+    padding: 0.1px 50px;
+    border-radius: 30px;
+
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder{
+    color: rgb(250, 244, 244);
+}
+.limited{
+    font-size: 20px;
+    border-bottom: 3px solid rgb(14, 16, 14);
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Menu{
+    margin-right: 40px;
+    color: rgb(7, 7, 7);
+    font-weight: 800;
+    cursor: poiner;
+}
+.slider{
+    background: url(/fotoğraflar/cream.jpg)
+     
+}
+.wrapper{
+    display: flex;
+    width: 100vw;
+    
+}
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.sliderBg{
+    width: 200px;
+    height: 550px;
+    border-radius: 20%;
+    position: absolute;
+}
+.sliderimg{
+    z-index: 1;
+
+}
+.sliderTitle{
+    position: absolute;
+    top: 100%;
+    right: 25%;
+    color: rgb(68, 12, 12);
+    font-size: 40px;
+    font-weight: 750;
+    text-align:center;
+ 
+}
+.sliderPrice{
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    color: rgb(36, 17, 17);
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid rgb(66, 36, 36);
+    
+}
+.campaign-title {
+    font-size: 30px; /* Yazı boyutunu artır */
+    color: #ff6347; /* Yazı rengi */
+    background-color: #fff8dc; /* Arka plan rengi */
+    padding: 10px 15px; /* İçerik için boşluk ekle */
+    border-radius: 5px; /* Köşeleri yuvarla */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Gölgelendirme efekti */
+    font-weight: bold; /* Kalın yazı */
+    text-align: center; /* Ortala */
+    margin: 20px 0; /* Üst ve alt boşluk ekle */
+}
+
+.buyb{
+    position: absolute;
+    top: 130%;
+    right: 30%;
+    color: rgb(68, 29, 20);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid grey;
+    background-color: rgb(166, 69, 95);
+    z-index: 1;
+    cursor: pointer;
+}
+.buyb:hover{
+    background-color: rgb(128, 71, 71);
+    color: chocolate;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6347;
+    font-size: 36px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.bottom {
+    text-align: center; /* Orta hizalama */
+}
+
+.navlink {
+    color: rgb(16, 15, 15);
+    background-color: bisque;
+    text-decoration: double;
+    padding: 5px 10px; /* Yüksekliği artırmak için padding ekledik */
+    border-radius: 5px; /* Köşeleri yuvarlamak için */
+    margin: 0 5px; /* Aralarına boşluk eklemek için */
+    transition: background-color 0.3s; /* Hover efekti için geçiş ekledik */
+}
+
+.navlink:hover {
+    background-color: #ff6347; /* Hoverda arka plan rengi */
+    color: white; /* Hoverda yazı rengi */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 350px; /* Genişlik artırıldı */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s; /* Hover efekt eklemek için */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Hoverda büyütme efekti */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    font-size: 18px;
+    color: #888;
+}
+
+.product button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #ff4500;
+}
+
+
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: rgb(43, 94, 87);
+}
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: rgb(181, 105, 105);
+}
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: rgb(212, 201, 4);
+}
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: rgb(128, 36, 36);
+}
+.sliderItem:nth-child(2) .sliderPrice{
+    background-color: rgb(255, 255, 255);
+}
+.sliderItem:nth-child(3) .sliderPrice{
+    background-color: rgb(255, 255, 255);
+}
+.sliderItem:nth-child(4) .sliderPrice{
+    background-color: rgb(249, 248, 245);
+}
+.sliderItem:nth-child(5) .sliderPrice{
+    background-color: rgb(248, 244, 244);
+}
